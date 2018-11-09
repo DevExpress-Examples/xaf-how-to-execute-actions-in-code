@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -30,73 +30,91 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Utils.v9.1">
+    <Reference Include="DevExpress.Utils.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.BonusSkins.v9.1">
+    <Reference Include="DevExpress.BonusSkins.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.v9.1">
+    <Reference Include="DevExpress.Printing.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.v9.1">
+    <Reference Include="DevExpress.Data.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Images.v9.1">
+    <Reference Include="DevExpress.ExpressApp.Xpo.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Objects.v9.1">
+    <Reference Include="DevExpress.ExpressApp.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Security.v9.1">
+    <Reference Include="DevExpress.ExpressApp.Images.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Validation.v9.1">
+    <Reference Include="DevExpress.ExpressApp.Objects.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Validation.Win.v9.1">
+    <Reference Include="DevExpress.ExpressApp.Security.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Win.v9.1">
+    <Reference Include="DevExpress.ExpressApp.Validation.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Persistent.Base.v9.1">
+    <Reference Include="DevExpress.ExpressApp.Validation.Win.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Persistent.BaseImpl.v9.1">
+    <Reference Include="DevExpress.ExpressApp.Win.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v9.1">
+    <Reference Include="DevExpress.Persistent.Base.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraBars.v9.1">
+    <Reference Include="DevExpress.Persistent.BaseImpl.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Charts.v9.1.Core">
+    <Reference Include="DevExpress.Xpo.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v9.1">
+    <Reference Include="DevExpress.XtraBars.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v9.1">
+    <Reference Include="DevExpress.Charts.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraGrid.v9.1">
+    <Reference Include="DevExpress.XtraCharts.v13.1.Wizard">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraLayout.v9.1">
+    <Reference Include="DevExpress.XtraCharts.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraNavBar.v9.1">
+    <Reference Include="DevExpress.XtraEditors.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v9.1">
+    <Reference Include="DevExpress.XtraGrid.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraRichEdit.v9.1">
+    <Reference Include="DevExpress.XtraLayout.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraVerticalGrid.v9.1">
+    <Reference Include="DevExpress.XtraNavBar.v13.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Docs.v13.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.1.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.1.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.1">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System">
