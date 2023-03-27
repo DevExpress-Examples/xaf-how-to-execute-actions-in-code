@@ -35,3 +35,7 @@ In general, this is rarely needed and is not recommended because there are alway
 Use the [ShowViewStrategyBase.ShowViewInPopupWindow(View, Action, Action, String, String)](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ShowViewStrategyBase.ShowViewInPopupWindow(DevExpress.ExpressApp.View-System.Action-System.Action-System.String-System.String)) method that works for all XAF UI platforms.
 
 >*NOTE*: `PopupWindowShowActionHelper` demonstrated in this example is WinForms-specific and is not widely used. PopupWindowShowActionHelper and its related parts are **internal and undocumented APIs** that can be changed without notice in the future. We will not be able to provide any formal support for these internal APIs either. That said, use it at your own risk. If you describe your business task in greater detail, our team will be in a better position to describe alternative options here.
+
+
+![image](https://user-images.githubusercontent.com/14300209/227978022-a50434fa-413f-4634-b0ba-09936fd82927.png)
+
