@@ -5,6 +5,7 @@ using DevExpress.Persistent.BaseImpl.EF.PermissionPolicy;
 using DevExpress.Persistent.BaseImpl.EF;
 using DevExpress.ExpressApp.Design;
 using DevExpress.ExpressApp.EFCore.DesignTime;
+using MySolution.Module.BusinessObjects;
 
 namespace ExecuteActionEF.Module.BusinessObjects;
 
@@ -34,7 +35,10 @@ public class ExecuteActionEFDesignTimeDbContextFactory : IDesignTimeDbContextFac
 public class ExecuteActionEFEFCoreDbContext : DbContext {
 	public ExecuteActionEFEFCoreDbContext(DbContextOptions<ExecuteActionEFEFCoreDbContext> options) : base(options) {
 	}
-	//public DbSet<ModuleInfo> ModulesInfo { get; set; }
+    //public DbSet<ModuleInfo> ModulesInfo { get; set; }
+    public DbSet<MyTask> MyTasks { get; set; }
+    public DbSet<Contact> Contacts { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         base.OnModelCreating(modelBuilder);
