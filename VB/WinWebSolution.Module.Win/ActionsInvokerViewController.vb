@@ -1,36 +1,40 @@
-﻿Imports System
 Imports DevExpress.ExpressApp
 Imports DevExpress.ExpressApp.Actions
 Imports DevExpress.ExpressApp.Win
 Imports DevExpress.ExpressApp.SystemModule
 
 Namespace WinWebSolution.Module.Win
-    Partial Public Class PopupWindowInvokerViewController
+
+    Public Partial Class PopupWindowInvokerViewController
         Inherits ViewController
 
         Public Sub New()
             InitializeComponent()
             RegisterActions(components)
         End Sub
-        Private Sub saPopupWindowShowActionInvoker_Execute(ByVal sender As Object, ByVal e As SimpleActionExecuteEventArgs) Handles saPopupWindowShowActionInvoker.Execute
+
+        Private Sub saPopupWindowShowActionInvoker_Execute(ByVal sender As Object, ByVal e As SimpleActionExecuteEventArgs)
             Dim linkUnlinkController As LinkUnlinkController = Frame.GetController(Of LinkUnlinkController)()
             If linkUnlinkController IsNot Nothing Then
-                 Call (New PopupWindowShowActionHelper(linkUnlinkController.LinkAction)).ShowPopupWindow()
+                Call New PopupWindowShowActionHelper(linkUnlinkController.LinkAction).ShowPopupWindow()
             End If
         End Sub
-        Private Sub saSingleChoiceActionInvoker_Execute(ByVal sender As Object, ByVal e As SimpleActionExecuteEventArgs) Handles saSingleChoiceActionInvoker.Execute
+
+        Private Sub saSingleChoiceActionInvoker_Execute(ByVal sender As Object, ByVal e As SimpleActionExecuteEventArgs)
             Dim newObjectViewController As NewObjectViewController = Frame.GetController(Of NewObjectViewController)()
             If newObjectViewController IsNot Nothing Then
                 newObjectViewController.NewObjectAction.DoExecute(newObjectViewController.NewObjectAction.Items(0))
             End If
         End Sub
-        Private Sub saSimpleActionInvoker_Execute(ByVal sender As Object, ByVal e As SimpleActionExecuteEventArgs) Handles saSimpleActionInvoker.Execute
+
+        Private Sub saSimpleActionInvoker_Execute(ByVal sender As Object, ByVal e As SimpleActionExecuteEventArgs)
             Dim refreshController As RefreshController = Frame.GetController(Of RefreshController)()
             If refreshController IsNot Nothing Then
                 refreshController.RefreshAction.DoExecute()
             End If
         End Sub
-        Private Sub saParametrizedActionInvoker_Execute(ByVal sender As Object, ByVal e As SimpleActionExecuteEventArgs) Handles saParametrizedActionInvoker.Execute
+
+        Private Sub saParametrizedActionInvoker_Execute(ByVal sender As Object, ByVal e As SimpleActionExecuteEventArgs)
             Dim filterController As FilterController = Frame.GetController(Of FilterController)()
             If filterController IsNot Nothing Then
                 filterController.FullTextFilterAction.DoExecute("test value")
