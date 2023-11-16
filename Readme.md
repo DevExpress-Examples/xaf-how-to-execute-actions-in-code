@@ -3,9 +3,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# XAF - How to execute Actions in code
+# XAF - How to execute Actions programmatically
 
-This example explains how to trigger the code inside the `Execute` event handlers of custom or standard XAF Actions programmatically, for example, to execute default Action logic that shows a View or runs code in the background.
+This example explains how to trigger code inside the `Execute` event handlers of custom or standard XAF Actions programmatically, for example, to execute default Action logic that shows a View or runs code in the background.
 
 > **NOTE** 
 > We do not recommend this approach. Refactor your Action's `Execute` and other event handlers and extract the required code into separate methods. You can call these methods directly without triggering the UI-related Action code.
