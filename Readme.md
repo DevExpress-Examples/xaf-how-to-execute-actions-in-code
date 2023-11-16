@@ -30,7 +30,7 @@ Mind the `ParametrizedAction.ValueType`. Here, a string is used as an example.
 
 Mind the `SingleChoiceAction.Items` structure. Here, the first item is used as an example.
 
-### PopupWindowShowAction (to display a dialog window)
+### PopupWindowShowAction (Display a Dialog Window)
 
 We do not provide public API to execute a PopupWindowShowAction. Use the [ShowViewStrategyBase.ShowViewInPopupWindow(View, Action, Action, String, String)](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ShowViewStrategyBase.ShowViewInPopupWindow(DevExpress.ExpressApp.View-System.Action-System.Action-System.String-System.String)) method to show a View in a pop-up window.
 
