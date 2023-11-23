@@ -5,10 +5,10 @@
 
 # XAF - How to execute Actions programmatically
 
-This example explains how to trigger code inside the `Execute` event handlers of custom or standard XAF Actions programmatically, for example, to execute default Action logic that shows a View or runs code in the background.
+This example explains how you can trigger the code inside `Execute` event handlers of custom or standard XAF Actions. For example, you can programmatically invoke an Action that shows a View or runs code in the background.
 
 > **NOTE** 
-> We do not recommend this approach. Refactor your Action's `Execute` and other event handlers and extract the required code into separate methods. You can call these methods directly without triggering the UI-related Action code.
+> We do not recommend this approach. Refactor your Action's event handlers and extract required code into separate methods. Call these separate methods directly without triggering UI-related Action code.
 
 ![image](https://user-images.githubusercontent.com/14300209/227978022-a50434fa-413f-4634-b0ba-09936fd82927.png)
 
@@ -22,13 +22,13 @@ This example explains how to trigger code inside the `Execute` event handlers of
 
 `myParametrizedAction.DoExecute("test value");`
 
-Mind the `ParametrizedAction.ValueType`. Here, a string is used as an example.
+Make sure that the parameter type matches `ParametrizedAction.ValueType`. A string is used in this example.
 
 ### SingleChoiceAction
 
 `mySingleChoiceAction.DoExecute(mySingleChoiceAction.Items[0]);`
 
-Mind the `SingleChoiceAction.Items` structure. Here, the first item is used as an example.
+Make sure the pass a parameter that's a valid item from `SingleChoiceAction.Items`. This example passes the first item in the collection.
 
 ### PopupWindowShowAction (Display a Dialog Window)
 
