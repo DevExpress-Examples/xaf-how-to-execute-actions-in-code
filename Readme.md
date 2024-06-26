@@ -2,6 +2,7 @@
 ![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128590153/13.1.4%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1393)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
@@ -35,3 +36,10 @@ In general, this is rarely needed and is not recommended because there are alway
 Use the [ShowViewStrategyBase.ShowViewInPopupWindow(View, Action, Action, String, String)](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ShowViewStrategyBase.ShowViewInPopupWindow(DevExpress.ExpressApp.View-System.Action-System.Action-System.String-System.String)) method that works for all XAF UI platforms.
 
 >*NOTE*: `PopupWindowShowActionHelper` demonstrated in this example is WinForms-specific and is not widely used. PopupWindowShowActionHelper and its related parts are **internal and undocumented APIs** that can be changed without notice in the future. We will not be able to provide any formal support for these internal APIs either. That said, use it at your own risk. If you describe your business task in greater detail, our team will be in a better position to describe alternative options here.
+<!-- feedback -->
+## Does this example address your development requirements/objectives?
+
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xaf-how-to-execute-actions-in-code&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xaf-how-to-execute-actions-in-code&~~~was_helpful=no)
+
+(you will be redirected to DevExpress.com to submit your response)
+<!-- feedback end -->
