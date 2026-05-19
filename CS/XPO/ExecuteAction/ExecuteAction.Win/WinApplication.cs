@@ -14,7 +14,6 @@ public class ExecuteActionWindowsFormsApplication : WinApplication {
 		SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
         ApplicationName = "ExecuteAction";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
-        UseOldTemplates = false;
         DatabaseVersionMismatch += ExecuteActionWindowsFormsApplication_DatabaseVersionMismatch;
         CustomizeLanguagesList += ExecuteActionWindowsFormsApplication_CustomizeLanguagesList;
     }

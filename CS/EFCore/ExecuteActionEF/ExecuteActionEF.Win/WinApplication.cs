@@ -18,7 +18,6 @@ public class ExecuteActionEFWindowsFormsApplication : WinApplication {
 		SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
         ApplicationName = "ExecuteActionEF";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
-        UseOldTemplates = false;
         DatabaseVersionMismatch += ExecuteActionEFWindowsFormsApplication_DatabaseVersionMismatch;
         CustomizeLanguagesList += ExecuteActionEFWindowsFormsApplication_CustomizeLanguagesList;
     }
